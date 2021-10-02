@@ -1,5 +1,5 @@
-MCP is a simple macro processor. It performs basic text substitution
-and rudimentary conditional evaluation.
+MCP is a simple macro processor. It performs text substitution and conditional
+evaluation.
 
 Requirements
 ------------
@@ -12,9 +12,9 @@ Usage
 * Invocation: `mcp [options] [input_files]`
 
 MCP processes simple macros in input files or from standard input.
-Writes output from an input file to an output file with the same name,
-but with `.out` appended. If reading from standard input then writes
-to standard output. If an input file has the `.mcp` extension then the
+It writes output from an input file to an output file with the same name,
+but with `.out` appended. When reading from standard input, it writes
+to standard output. If an input file has the `.mcp` extension, then the
 name of the output file is the name of the input file without `.mcp`.
 
 You may pass `-` instead of an input file to indicate standard input.
