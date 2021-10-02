@@ -117,7 +117,7 @@ expansion. Expressions may use defines prefixed with `&` and bare
 text strings.
 
 Allowed operators:
-* `=`, `<=`, `>=`: string comparisions
+* `=`, `<=`, `>=`: string comparisons
 * `||`, `&&`: disjunction and conjunction
 * `!`: negation
 * `defined name`: true if `name` is defined
