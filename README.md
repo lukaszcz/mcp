@@ -1,6 +1,14 @@
 MCP is a simple macro processor. It performs text substitution and conditional
 evaluation.
 
+Features
+--------
+* Multiline macros with eagerly expanded arguments.
+* Expressions and conditionals.
+* Dynamically scoped definitions.
+* File inclusion with local scope.
+* Customisable expansion conditions (prefix character).
+
 Requirements
 ------------
 * C compiler
@@ -81,7 +89,7 @@ Undefines all local macros (but not defines).
 Defines a define named `name` which expands to `text`. If `text` is
 omitted then it is assumed to be the empty string. The name of a
 define cannot begin with the "macro character". The scope of the
-definition is the top-level file currently beign parsed and all files
+definition is the top-level file currently being parsed and all files
 included from the top-level file.
 
 ```
