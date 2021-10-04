@@ -3,7 +3,7 @@ evaluation.
 
 Features
 --------
-* Multiline macros with eagerly expanded arguments.
+* Multiline recursive macros with eagerly expanded arguments.
 * Expressions and conditionals.
 * Dynamically scoped definitions.
 * File inclusion with local scope.
